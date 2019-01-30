@@ -4,7 +4,7 @@ import numpy as np
 def get_packer_action(machine, job_slot):
         align_score = 0
         act = len(job_slot.slot)  # if no action available, hold
-
+        
         for i in xrange(len(job_slot.slot)):
             new_job = job_slot.slot[i]
             if new_job is not None:  # there is a pending job

@@ -77,7 +77,7 @@ def get_traj(test_type, pa, env, episode_max_length, pg_resume=None, render=Fals
     return np.array(rews), info
 
 
-def launch(pa, pg_resume=None, render=False, plot=False, repre='image', end='no_new_job'):
+def launch(pa, pg_resume=None, render=False, plot=False, rere='image', end='no_new_job'):
 
     # ---- Parameters ----
 
