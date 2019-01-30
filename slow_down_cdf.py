@@ -49,6 +49,7 @@ def get_traj(test_type, pa, env, episode_max_length, pg_resume=None, render=Fals
 
     env.reset()
     rews = []
+    
 
     ob = env.observe()
 
